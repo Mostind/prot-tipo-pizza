@@ -1,0 +1,108 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/nav";
+
+@media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: 100%;
+    }
+}
+
+.nav-link {
+color:rgb(255 255 255 / 65%)
+}
+.navbar-nav {
+--bs-nav-link-hover-color: rgb(253 215 105 / 80%);
+}
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1); // inverte a cor para ficar claro
+}
+
+.navbar{
+        --bs-navbar-color: rgb(204, 203, 203);
+}
+
+/* TOPO COM IMAGEM DE PIZZA E FUNDO */
+.hero-banner {
+  background: linear-gradient(to top, #c43f00, #ff7e00);
+  background-image: url(../assets/banner-pizza.jpg); /* use a imagem certa aqui */
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(1px);
+}
+
+.hero-banner .conteudo {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-banner h1,
+.hero-banner h2 {
+  margin: 0;
+}
+
+/* PRODUTOS */
+.produtos img {
+  width: 160px;
+  border-radius: 1rem;
+}
+
+/* RODAPÉ */
+.footer {
+  background-color: #212529;
+}
+
+.footer-bar {
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.conteudo > a {
+    margin-top: 15px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+section.produtos.text-center.py-5 {
+  background-color:#ffc107;
+  background-position: center;
+  background-size: cover;
+}
+.text-danger {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+    text-shadow: 1px 1px 1px black;
+}
+a.btn.btn-danger.mt-2 {
+    box-shadow: 0px 2px 2px 0px #000000;
+}

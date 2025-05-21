@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>PIZZARIA</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark custom-navbar">
+  <div class="container-fluid">
+    
+    <a class="navbar-brand collapse navbar-collapse" href="#"><img src="assets/pizza-icon.png" alt="pizza-icon" style="width: 40px;"></a>
+
+    <!-- Botão de colapso para mobile -->
+    <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon">
+        
+      </span>
+    </button>
+
+    <!-- Links do menu -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+       <li class="nav-item">
+          <a class="nav-link"  style="font-weight: bold;"  href="cardapio.html">Cardápio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"href="login.html">Login</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="login_gerente.html">Gerente</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+  <!-- TOPO COM IMAGEM E TEXTO -->
+  <header class="hero-banner text-center text-white d-flex align-items-center justify-content-center">
+    <div class="conteudo">
+      <h2>Delícias que você precisa</h2>
+      <h1 class="fw-bold">Experimentar</h1>
+      <a href="cardapio.html" class="btn btn-success" style="font-weight: bold;">CARDÁPIO</a>
+    </div>
+  </header>
+
+  <!-- SESSÃO DE PRODUTOS -->
+  <section class="produtos text-center py-5">
+    <h3 class="text-danger fw-bold mb-4">O QUE TE DÁ ÁGUA NA BOCA?</h3>
+    <div class="container d-flex justify-content-center flex-wrap gap-4">
+      <div class="produto">
+        <img src="assets/pizza1.png" style="width: 150x; height: 150px;" alt="pizza" />
+        <a href="#" class="btn btn-danger mt-2">PIZZAS</a>
+      </div>
+      <div class="produto">
+        <img src="assets/pizza2.png" style="width: 150x; height: 150px;"alt="palmito" />
+        <a href="#" class="btn btn-danger mt-2">PALMITO RECHEADO</a>
+      </div>
+      <div class="produto">
+        <img src="assets/pizza3.png" style="width: 150x; height: 150px;" alt="calzones" />
+        <a href="#" class="btn btn-danger mt-2">CALZONES</a>
+      </div>
+      <div class="produto">
+        <img src="assets/pizza4.png" style="width: 150x; height: 150px;" alt="esfihas" />
+        <a href="#" class="btn btn-danger mt-2">ESFIHAS</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer text-center text-white">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-4">
+          <h6 style="color: #ffc107; font-weight: bold;">Cardápio</h6>
+          <ul class="list-unstyled">
+            <li>Pizzas</li>
+            <li>Palmito Recheado</li>
+            <li>Calzone</li>
+            <li>Esfihas</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <p class="mb-0" style="color: #ffc107; font-weight: bold;">Terça a domingo das 18h às 23h</p>
+          <p>(85) 99999-9999</p>
+          <p> Av. Senador Fernandes Távora, 137A - Jóquei Clube,<br> Fortaleza - CE, 60510-111</p>
+        </div>
+        <div class="col-md-4">
+          <img src="assets/pizza-icon.png" style="width: 90px;" alt="Logo" style="width: 80px;">
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar bg-success text-dark py-2">
+      <small>PROTÓTIPO FEITO PELA EQUIPE</small>
+    </div>
+  </footer>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

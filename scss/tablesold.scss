@@ -1,0 +1,47 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.NotaFiscal {
+    padding: 5px;
+    border-radius: 5px;
+    border: #00000044 2px solid;
+    background-color: #ff7d8b;
+    
+}
+
+@media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: 100%;
+    }
+}
+
+.nav-link {
+color:rgb(255 255 255 / 65%)
+}
+.navbar-nav {
+--bs-nav-link-hover-color: rgb(253 215 105 / 80%);
+}
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1); // inverte a cor para ficar claro
+}
+
+.navbar{
+        --bs-navbar-color: rgb(204, 203, 203);
+}

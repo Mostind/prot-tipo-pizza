@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/tablesold.css">
+    <title>Tela de Vendas</title>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-dark custom-navbar">
+  <div class="container-fluid">
+    <!-- Marca -->
+    <a class="navbar-brand collapse navbar-collapse" href="index.html"><img src="assets/pizza-icon.png" alt="pizza-icon" style="width: 40px;"></a>
+
+    <!-- Botão de colapso para mobile -->
+    <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon">
+        
+      </span>
+    </button>
+
+    <!-- Links do menu -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="cardapio.html" style="font-weight: bold;" >Cardápio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">NOME</th>
+      <th scope="col">TELEFONE</th>
+      <th scope="col">ENDEREÇO</th>
+      <th scope="col">PEDIDO</th>
+      <th scope="col">NOTA FISCAL</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>4814-2530</td>
+      <td>Conjunto Esperança,415</td>
+      <td>Mussarela</td>
+      <td><button class="NotaFiscal" value="Nota fiscal"><img src="assets/shopping-cart.svg" alt="icon-svg"></button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Mark</td>
+      <td>4814-2530</td>
+      <td>Conjunto Esperança,415</td>
+      <td>Mussarela</td>
+      <td><button class="NotaFiscal" value="Nota fiscal"><img src="assets/shopping-cart.svg" alt="icon-svg"></button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Mark</td>
+      <td>4814-2530</td>
+      <td>Conjunto Esperança,415</td>
+      <td>Mussarela</td>
+      <td><button class="NotaFiscal icon-fiscal" value="Nota fiscal"><img src="assets/shopping-cart.svg" alt="icon-svg"></button></td>
+    </tr>
+  </tbody>
+</table>
+
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
